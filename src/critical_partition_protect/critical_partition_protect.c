@@ -4,7 +4,6 @@
  * Copyright (C) 2024 skkk. All Rights Reserved.
  * Copyright (C) 2024 GarfieldHan. All Rights Reserved.
  * Copyright (C) 2024 1f2003d5. All Rights Reserved.
- * Copyright (C) 2025 PhotonByte. All Rights Reserved.
  */
 
 #include <linux/err.h>
@@ -24,7 +23,7 @@ KPM_NAME("Anti Format Critical Partition");
 KPM_VERSION(ANTI_FORMAT_VERSION);
 KPM_LICENSE("GPL v2");
 KPM_AUTHOR("1f2003d5 & sekaiacg");
-KPM_DESCRIPTION("通过拦截内核调用对关键分区进行保护，防止被恶意格机");
+KPM_DESCRIPTION("By intercepting kernel calls, critical partitions are protected to prevent malicious formatting");
 
 char *skfunc_def(d_path)(const struct path *path, char *buf, int buflen) = NULL;
 void skfunc_def(fput)(struct file *file) = NULL;
