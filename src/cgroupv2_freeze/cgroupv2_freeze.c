@@ -2,6 +2,7 @@
 /*
  * Copyright (C) 2024 bmax121. All Rights Reserved.
  * Copyright (C) 2024 lzghzr. All Rights Reserved.
+ * Copyright (C) 2025 PhotonByte. All Rights Reserved.
  */
 
 #include <compiler.h>
