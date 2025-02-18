@@ -77,7 +77,7 @@ static inline bool uninstallHook()
 {
     if (hook_success(do_filp_open)) {
         unhook((void *)hook_original(do_filp_open));
-        hook_err(do_filp_open) = HOOK_NOT_HOOK;
+        hook_err(do_filp_open) = HOOK_DUPLICATED;
         pr_info("[AntiFormatDevice] hook uninstalled...\n");
     } else {
         pr_info("[AntiFormatDevice] Maybe it's not hooked, skipping...\n");
