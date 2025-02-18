@@ -4,6 +4,7 @@
  * Copyright (C) 2024 skkk. All Rights Reserved.
  * Copyright (C) 2024 GarfieldHan. All Rights Reserved.
  * Copyright (C) 2024 1f2003d5. All Rights Reserved.
+ * Copyright (C) 2025 PhotonByte. All Rights Reserved.
  */
 
 #include <linux/err.h>
